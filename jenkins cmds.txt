@@ -1,0 +1,12 @@
+javac Helloworld.java
+java Helloworld
+rm Helloworld.class
+----------
+crontab.guru
+
+
+----------------------Jenkins-------------
+mkdir mytestapp
+cd mytestapp
+code .
+
