@@ -9,4 +9,11 @@ crontab.guru
 mkdir mytestapp
 cd mytestapp
 code .
-
+//
+---------------------
+IN jenkins angular app
+	Build 
+	Execute shell
+npm install		//install node modules
+ng build --prod		//build project
+tar -cvf mywebsite.tar dist/mywebsite	//create tar(zip) file of application
